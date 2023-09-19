@@ -1,0 +1,23 @@
+form{
+    margin: 50px 0;
+
+    .grid-x{
+        .cell{
+            &:nth-child(1){
+                padding-left: 0;
+            }
+            &:nth-child(2){
+                padding-right: 0;
+            }
+        }
+
+        .no-padding{
+            padding: 0;
+
+            textarea{
+                min-height: 100px;
+                resize: vertical;
+            }
+        }
+    }
+}
